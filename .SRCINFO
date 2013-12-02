@@ -1,0 +1,24 @@
+pkgbase = atftp
+	pkgdesc = a client/server implementation of the TFTP protocol that implements RFCs 1350, 2090, 2347, 2348, and 2349
+	pkgver = 0.7.11
+	pkgrel = 2
+	url = http://freshmeat.net/projects/atftp/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = pcre
+	depends = readline
+	conflicts = netkit-tftp
+	replaces = netkit-tftp
+	backup = etc/conf.d/atftpd
+	source = http://ftp.debian.org/debian/pool/main/a/atftp/atftp_0.7.dfsg.orig.tar.gz
+	source = http://ftp.debian.org/debian/pool/main/a/atftp/atftp_0.7.dfsg-11.diff.gz
+	source = atftpd.service
+	source = atftpd.conf
+	md5sums = aa269044a6f992eca78fee2f6119643c
+	md5sums = 1636f199bf32c754a7bf34a5c647d138
+	md5sums = 668ba8066f665adc2ed938c088e1ed17
+	md5sums = 28efb8468be3f4891b0ad5e5d67bc443
+
+pkgname = atftp
+
